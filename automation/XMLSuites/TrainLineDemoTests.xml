@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trainline Demo Suite" verbose="10">
+
+	<test name="Trainline Demo Tests">
+		<classes>
+			<class name="com.thetrainline.tests.DemoTests" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,363 @@
+2018-07-04 20:09:09,016 INFO  [Configuration] Initalizing Configuration Property : C:\Users\Vishi\workspace\trainline_automation\trainline_automation\config.properties
+2018-07-04 20:09:09,029 INFO  [CustomListener] After beforeSuite
+2018-07-04 20:09:11,060 INFO  [Browser] Browser : Chrome
+2018-07-04 20:09:11,060 INFO  [Browser] OS Arch : amd64
+2018-07-04 20:10:08,644 INFO  [Browser] Maximize window
+2018-07-04 20:10:09,991 INFO  [Browser] Setting Page Load Timeout : 180 Seconds
+2018-07-04 20:10:10,002 INFO  [Browser] Setting Implicit Wait : 60 Seconds
+2018-07-04 20:10:10,011 INFO  [Browser] Setting Explicit Wait : 180 Seconds
+2018-07-04 20:10:10,078 INFO  [Browser] Opening URL : https://www.thetrainline.com/
+2018-07-04 20:10:46,358 INFO  [CustomListener] After loadHomePage
+2018-07-04 20:10:47,443 INFO  [CustomListener] Scenario Started : An Adult and children should be able to book a ticket
+2018-07-04 20:10:50,257 INFO  [BaseElement] Field : From Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:10:51,271 INFO  [EditableElement] Field : From Location Text Box, Action : Set Value, Value : London .
+2018-07-04 20:11:00,379 INFO  [BaseTest] Test Case : bookATicketFailed, Reason : stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 521 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HCS28RS', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Vishi\AppData\Local\Temp\scoped_dir3288_10814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cf759464e7c0f6b9ca93ff6dab8a2ff1
+2018-07-04 20:11:16,691 INFO  [CustomListener] After bookATicket
+2018-07-04 20:11:16,940 INFO  [Browser] Closing Browser
+2018-07-04 20:11:30,316 INFO  [CustomListener] After closeBrowser
+2018-07-04 20:11:30,321 INFO  [Browser] Browser : Chrome
+2018-07-04 20:11:30,321 INFO  [Browser] OS Arch : amd64
+2018-07-04 20:11:36,221 INFO  [Browser] Maximize window
+2018-07-04 20:11:37,239 INFO  [Browser] Setting Page Load Timeout : 180 Seconds
+2018-07-04 20:11:37,247 INFO  [Browser] Setting Implicit Wait : 60 Seconds
+2018-07-04 20:11:37,253 INFO  [Browser] Setting Explicit Wait : 180 Seconds
+2018-07-04 20:11:37,255 INFO  [Browser] Opening URL : https://www.thetrainline.com/
+2018-07-04 20:11:47,627 INFO  [CustomListener] After loadHomePage
+2018-07-04 20:11:47,640 INFO  [CustomListener] Scenario Started : An Adult and children should be able to book a ticket
+2018-07-04 20:11:47,644 INFO  [BaseElement] Field : From Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:47,757 INFO  [EditableElement] Field : From Location Text Box, Action : Set Value, Value : London .
+2018-07-04 20:11:51,548 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:51,587 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:11:51,588 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:11:51,588 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:51,654 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Visible.
+2018-07-04 20:11:51,654 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:51,695 INFO  [BaseElement] Field : London, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:11:52,513 INFO  [BaseElement] Field : To Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:53,005 INFO  [EditableElement] Field : To Location Text Box, Action : Set Value, Value : Manchester .
+2018-07-04 20:11:56,416 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:56,475 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:11:56,476 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:11:56,477 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:56,526 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Visible.
+2018-07-04 20:11:56,526 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:56,578 INFO  [BaseElement] Field : Manchester, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:11:57,048 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Clickable.
+2018-07-04 20:11:57,050 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Enabled.
+2018-07-04 20:11:57,051 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:57,456 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Visible.
+2018-07-04 20:11:57,457 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:57,559 INFO  [BaseElement] Field : Passenger Summary Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:11:58,645 INFO  [BaseElement] Field : Adult Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:11:58,704 INFO  [SelectBox] Select Value. Field : Adult Dropdown , Value: 0
+2018-07-04 20:12:00,396 INFO  [BaseElement] Field : Children Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:00,467 INFO  [SelectBox] Select Value. Field : Children Dropdown , Value: 1
+2018-07-04 20:12:00,776 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:00,777 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:00,778 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:00,888 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:00,888 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:00,952 INFO  [BaseElement] Field : Passenger Summary Done Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:12:01,158 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:01,161 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:01,162 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:01,287 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:01,287 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:01,383 INFO  [BaseElement] Field : Get times & tickets Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:12:01,745 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:12:01,848 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:12:07,654 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:07,657 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:07,657 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:07,775 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:07,775 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:07,864 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:12:08,231 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should have the text '$76.25'
+2018-07-04 20:12:08,232 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:08,494 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 child'
+2018-07-04 20:12:08,494 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:08,651 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:12:11,654 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:11,655 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:11,655 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:11,877 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:11,877 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:12,009 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:12:12,224 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:12:12,224 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:12:14,245 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:12:17,247 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:17,888 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:17,889 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:17,889 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:17,972 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:17,972 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:18,074 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:12:18,352 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:12:18,353 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:12:21,646 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:21,649 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:21,650 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:21,766 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:21,766 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:21,840 INFO  [BaseElement] Field : I'm a new customer Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:12:22,216 INFO  [BaseElement] Field : Email Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:22,317 INFO  [EditableElement] Field : Email Text Box, Action : Set Value, Value : CXjBGExBjrvc@gmail.com .
+2018-07-04 20:12:23,577 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:23,578 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:23,578 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:23,694 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:23,694 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:23,783 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:12:24,004 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:12:27,005 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:31,432 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:12:31,433 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:12:31,433 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:31,571 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:12:31,572 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:31,673 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:12:31,838 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:12:31,838 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:12:35,314 INFO  [BaseElement] Field : Price Label, Verification :Field Should have the text '$76.25'
+2018-07-04 20:12:35,314 INFO  [BaseElement] Field : Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:35,436 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 child'
+2018-07-04 20:12:35,436 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:12:35,638 INFO  [CustomListener] After bookATicket
+2018-07-04 20:12:35,647 INFO  [Browser] Closing Browser
+2018-07-04 20:12:39,613 INFO  [CustomListener] After closeBrowser
+2018-07-04 20:12:47,720 INFO  [CustomListener] After tearDown
+2018-07-04 20:18:19,317 INFO  [Configuration] Initalizing Configuration Property : C:\Users\Vishi\workspace\trainline_automation\trainline_automation\config.properties
+2018-07-04 20:18:19,333 INFO  [CustomListener] After beforeSuite
+2018-07-04 20:18:19,728 INFO  [Browser] Browser : Chrome
+2018-07-04 20:18:19,728 INFO  [Browser] OS Arch : amd64
+2018-07-04 20:18:31,769 INFO  [Browser] Maximize window
+2018-07-04 20:18:32,946 INFO  [Browser] Setting Page Load Timeout : 180 Seconds
+2018-07-04 20:18:32,990 INFO  [Browser] Setting Implicit Wait : 60 Seconds
+2018-07-04 20:18:32,994 INFO  [Browser] Setting Explicit Wait : 180 Seconds
+2018-07-04 20:18:33,020 INFO  [Browser] Opening URL : https://www.thetrainline.com/
+2018-07-04 20:18:41,429 INFO  [CustomListener] After loadHomePage
+2018-07-04 20:18:41,617 INFO  [CustomListener] Scenario Started : An Adult and children should be able to book a ticket
+2018-07-04 20:18:41,819 INFO  [BaseElement] Field : From Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:41,966 INFO  [EditableElement] Field : From Location Text Box, Action : Set Value, Value : London .
+2018-07-04 20:18:44,297 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:44,335 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:18:44,336 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:18:44,337 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:44,401 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Visible.
+2018-07-04 20:18:44,402 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:44,497 INFO  [BaseElement] Field : London, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:45,113 INFO  [BaseElement] Field : To Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:45,242 INFO  [EditableElement] Field : To Location Text Box, Action : Set Value, Value : Manchester .
+2018-07-04 20:18:47,183 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:47,250 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:18:47,252 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:18:47,253 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:47,325 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Visible.
+2018-07-04 20:18:47,326 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:47,475 INFO  [BaseElement] Field : Manchester, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:47,798 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Clickable.
+2018-07-04 20:18:47,801 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Enabled.
+2018-07-04 20:18:47,801 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:47,944 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Visible.
+2018-07-04 20:18:47,944 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:48,030 INFO  [BaseElement] Field : Passenger Summary Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:48,713 INFO  [BaseElement] Field : Adult Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:48,762 INFO  [SelectBox] Select Value. Field : Adult Dropdown , Value: 1
+2018-07-04 20:18:49,204 INFO  [BaseElement] Field : Children Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:49,280 INFO  [SelectBox] Select Value. Field : Children Dropdown , Value: 0
+2018-07-04 20:18:49,356 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Clickable.
+2018-07-04 20:18:49,358 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Enabled.
+2018-07-04 20:18:49,358 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:49,460 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Visible.
+2018-07-04 20:18:49,460 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:49,534 INFO  [BaseElement] Field : Passenger Summary Done Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:49,782 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Clickable.
+2018-07-04 20:18:49,784 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Enabled.
+2018-07-04 20:18:49,784 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:49,878 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Visible.
+2018-07-04 20:18:49,878 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:49,992 INFO  [BaseElement] Field : Get times & tickets Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:50,522 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:18:50,536 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:18:55,927 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Verification :Field Should Be Clickable.
+2018-07-04 20:18:55,928 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Verification :Field Should Be Enabled.
+2018-07-04 20:18:55,929 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:55,984 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Verification :Field Should Be Visible.
+2018-07-04 20:18:55,985 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:56,030 INFO  [BaseElement] Field : Cheapest First Class Single $164.97 Radio Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:18:56,358 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should have the text '$164.97'
+2018-07-04 20:18:56,358 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:56,471 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 adult'
+2018-07-04 20:18:56,471 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:56,578 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:18:59,581 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:18:59,583 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:18:59,584 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:59,769 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:18:59,770 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:18:59,918 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:19:00,193 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:19:00,193 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:19:02,211 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:19:05,211 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:11,237 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:19:11,238 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:19:11,238 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:11,316 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:19:11,317 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:11,395 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:19:11,558 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:19:11,558 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:19:13,608 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Clickable.
+2018-07-04 20:19:13,610 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Enabled.
+2018-07-04 20:19:13,610 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:13,811 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Visible.
+2018-07-04 20:19:13,811 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:13,984 INFO  [BaseElement] Field : I'm a new customer Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:19:14,162 INFO  [BaseElement] Field : Email Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:14,279 INFO  [EditableElement] Field : Email Text Box, Action : Set Value, Value : kcoGBhYRxQfR@gmail.com .
+2018-07-04 20:19:15,567 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:19:15,568 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:19:15,569 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:15,824 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:19:15,825 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:15,909 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:19:16,119 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:19:19,120 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:23,351 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:19:23,352 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:19:23,352 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:23,488 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:19:23,488 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:23,650 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:19:24,025 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:19:24,026 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:19:26,576 INFO  [BaseElement] Field : Price Label, Verification :Field Should have the text '$164.97'
+2018-07-04 20:19:26,576 INFO  [BaseElement] Field : Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:27,801 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 adult'
+2018-07-04 20:19:27,801 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:19:42,446 INFO  [CustomListener] After bookATicket
+2018-07-04 20:19:42,467 INFO  [Browser] Closing Browser
+2018-07-04 20:19:48,264 INFO  [CustomListener] After closeBrowser
+2018-07-04 20:19:48,267 INFO  [Browser] Browser : Chrome
+2018-07-04 20:19:48,268 INFO  [Browser] OS Arch : amd64
+2018-07-04 20:19:54,194 INFO  [Browser] Maximize window
+2018-07-04 20:19:55,212 INFO  [Browser] Setting Page Load Timeout : 180 Seconds
+2018-07-04 20:19:55,217 INFO  [Browser] Setting Implicit Wait : 60 Seconds
+2018-07-04 20:19:55,224 INFO  [Browser] Setting Explicit Wait : 180 Seconds
+2018-07-04 20:19:55,227 INFO  [Browser] Opening URL : https://www.thetrainline.com/
+2018-07-04 20:20:01,599 INFO  [CustomListener] After loadHomePage
+2018-07-04 20:20:01,603 INFO  [CustomListener] Scenario Started : An Adult and children should be able to book a ticket
+2018-07-04 20:20:01,606 INFO  [BaseElement] Field : From Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:01,707 INFO  [EditableElement] Field : From Location Text Box, Action : Set Value, Value : London .
+2018-07-04 20:20:03,794 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:03,841 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:20:03,842 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:20:03,842 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:03,884 INFO  [BaseElement] Field : London, Any, Verification :Field Should Be Visible.
+2018-07-04 20:20:03,885 INFO  [BaseElement] Field : London, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:03,934 INFO  [BaseElement] Field : London, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:04,240 INFO  [BaseElement] Field : To Location Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:04,333 INFO  [EditableElement] Field : To Location Text Box, Action : Set Value, Value : Manchester .
+2018-07-04 20:20:05,856 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:05,891 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Clickable.
+2018-07-04 20:20:05,892 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Enabled.
+2018-07-04 20:20:05,892 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:05,927 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Be Visible.
+2018-07-04 20:20:05,927 INFO  [BaseElement] Field : Manchester, Any, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:05,968 INFO  [BaseElement] Field : Manchester, Any, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:06,191 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:06,192 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:06,192 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:06,322 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:06,323 INFO  [BaseElement] Field : Passenger Summary Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:06,404 INFO  [BaseElement] Field : Passenger Summary Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:06,788 INFO  [BaseElement] Field : Adult Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:06,896 INFO  [SelectBox] Select Value. Field : Adult Dropdown , Value: 0
+2018-07-04 20:20:07,496 INFO  [BaseElement] Field : Children Dropdown, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:07,573 INFO  [SelectBox] Select Value. Field : Children Dropdown , Value: 1
+2018-07-04 20:20:07,787 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:07,789 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:07,789 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:07,879 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:07,879 INFO  [BaseElement] Field : Passenger Summary Done Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:07,958 INFO  [BaseElement] Field : Passenger Summary Done Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:08,073 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:08,074 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:08,074 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:08,157 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:08,157 INFO  [BaseElement] Field : Get times & tickets Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:08,223 INFO  [BaseElement] Field : Get times & tickets Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:08,570 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:20:08,570 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:20:12,861 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:12,863 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:12,863 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:12,940 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:12,940 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:13,010 INFO  [BaseElement] Field : Cheapest First Class Single $76.25 Radio Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:13,310 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should have the text '$76.25'
+2018-07-04 20:20:13,310 INFO  [BaseElement] Field : Total Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:13,435 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 child'
+2018-07-04 20:20:13,435 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:13,549 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:20:16,551 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:16,553 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:16,553 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:16,678 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:16,678 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:16,824 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:20:16,974 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:20:16,974 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:20:20,311 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:20:23,311 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:23,869 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:23,870 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:23,871 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:23,993 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:23,993 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:24,095 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:20:24,287 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:20:24,288 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:20:26,301 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:26,302 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:26,303 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:26,495 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:26,495 INFO  [BaseElement] Field : I'm a new customer Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:26,629 INFO  [BaseElement] Field : I'm a new customer Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:26,830 INFO  [BaseElement] Field : Email Text Box, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:26,906 INFO  [EditableElement] Field : Email Text Box, Action : Set Value, Value : VeBuHvaUWHUj@gmail.com .
+2018-07-04 20:20:27,302 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:27,303 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:27,303 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:27,387 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:27,388 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:27,456 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : NORMAL
+2018-07-04 20:20:27,726 INFO  [SleepUtils] Sleeping For 3.0 Seconds
+2018-07-04 20:20:30,728 INFO  [BaseElement] Field : Body Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:33,554 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Clickable.
+2018-07-04 20:20:33,555 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Enabled.
+2018-07-04 20:20:33,555 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:33,652 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Be Visible.
+2018-07-04 20:20:33,652 INFO  [BaseElement] Field : Continue Button, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:33,732 INFO  [BaseElement] Field : Continue Button, Action : Click, Click Type : ACTION
+2018-07-04 20:20:33,985 INFO  [Page] Waiting For Page To Load...
+2018-07-04 20:20:33,985 INFO  [SleepUtils] Sleeping For 2.0 Seconds
+2018-07-04 20:20:36,161 INFO  [BaseElement] Field : Price Label, Verification :Field Should have the text '$76.25'
+2018-07-04 20:20:36,162 INFO  [BaseElement] Field : Price Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:49,964 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should have the text '1 child'
+2018-07-04 20:20:49,964 INFO  [BaseElement] Field : Passenger Count Label, Verification :Field Should Exists On The Page.
+2018-07-04 20:20:50,079 INFO  [CustomListener] After bookATicket
+2018-07-04 20:20:50,081 INFO  [Browser] Closing Browser
+2018-07-04 20:20:53,331 INFO  [CustomListener] After closeBrowser
+2018-07-04 20:20:59,082 INFO  [CustomListener] After tearDown
